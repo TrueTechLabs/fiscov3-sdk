@@ -1,0 +1,49 @@
+info|2023-05-19 07:54:28.326909|[SDK][WS][SERVICE],[NEWOBJ][WsService]=0x23fff90
+info|2023-05-19 07:54:28.326969|[RPCWS][SERVICE]init the local protocol,minVersion=1,maxVersion=1,module=2
+info|2023-05-19 07:54:28.330057|[DEFAULT][WS][INITIALIZER][initWsService]start websocket service as client,connected size=1
+info|2023-05-19 07:54:28.330095|[DEFAULT][WS][INITIALIZER][initWsService]initializer for websocket service,listenIP=,listenPort=0,disableSsl=false,server=false,client=true,threadPoolSize=8,maxMsgSize=33554432,msgTimeOut=10000,connected peers=1
+info|2023-05-19 07:54:28.330180|[bcos_sdk_create][NEWOBJ],sdk=0x242e620,version=FISCO BCOS C SDK Version : 3.2.0
+Build Time         : 20230116 14:15:25
+Build Type         : Linux/g++/Release
+Git Branch         : 
+Git Commit         : 0
+info|2023-05-19 07:54:28.331170|[DEFAULT][WS][CONNECTOR][connectToWsServer]async_connect success,endpoint=127.0.0.1:20200
+info|2023-05-19 07:54:28.331306|[DEFAULT][WS][STREAM],[NEWOBJ][WsStream]=0x7fe684001930
+info|2023-05-19 07:54:28.333786|[DEFAULT][BOOSTSSL][NODEINFO][NEW]SSLContext pubHex: 3082010a0282010100d80f716eda4212849d8e577689c30d309c75f1769b2c8abc0a264bce20a66ed0df4d1e1d91fa5b121c3563a5336ddf789f9e9d8050ad110b78baebf2bb70b9163020bb69d1d4ada5e398f03e90c5e5eb979705a0466976423f18a19ab00f6cf04d3e48134b6334534ecf2a2e83f6aab64b10b74bcb07c42fb8b7ca21fb4a7a81037079c3e26327a8224ace94b39afa98864ab4b166ddf4b384c14255eef59180bcdc51f7845075ff10830e72e00ae2088e53fd498ca1b85408b3d83c60319cb23f87fe1b43789d4c28d8b08ffd1ad1f7b658ef72ca9f4f1015f6a17882f1fc64bab3b5dfbf6a9d730b23f31fd8fd2488eddfbdd904bb2fa492b849e59953261b0203010001
+warning|2023-05-19 07:54:28.333808|[DEFAULT][BOOSTSSL][NODEINFO]Get ca basic failed
+info|2023-05-19 07:54:28.333953|[DEFAULT][BOOSTSSL][NODEINFO][NEW]SSLContext pubHex: 3082010a0282010100c5db11514c4f020e7c83863d33036ac94753ef85dd5b0f4bfdf51db42b6482f0db022e4c4a4064ec0e2cce780fdc04b3946c15d56d2cde5b841b568ede48d8ec30c42c7bb7f37e0c84db8c3b9c4931715678a68932567971322113732fbd795e047c4a27c7887480c5d801232bd87055b4232791bdb0fe429e9ce6b3d33feb2d6549e98d6dbcad6ec8e4c3ebdbf6872f7febb507883cab269b8c50d64443428dd76fd0f3b7bbbdcf7ae415dd56372fbd3fcaa64baebb37c022626cacf1c29e1051c1d0f9e366705ac22e48cf954ba4fcf69941dcbb803cf14a23d819e4334b83526981338ee83a29996fc29b0c0fd5113728ff3b92909249d41cf4ca5575bb210203010001
+info|2023-05-19 07:54:28.337187|[DEFAULT][WS][CONNECTOR][connectToWsServer]ssl async_handshake success,host=127.0.0.1,port=20200
+info|2023-05-19 07:54:28.337896|[DEFAULT][WS][CONNECTOR][connectToWsServer]websocket handshake successfully,host=127.0.0.1,port=20200
+info|2023-05-19 07:54:28.337973|[SDK][WS][SERVICE]connected nodes,count=0
+info|2023-05-19 07:54:28.337990|[SDK][WS][SERVICE][start]start websocket service successfully,model=1,max msg size=33554432
+info|2023-05-19 07:54:28.338026|[SDK][WS][SESSION],[NEWOBJ][WSSESSION]=0x7fe6840243b0
+info|2023-05-19 07:54:28.338035|[SDK][WS][SERVICE][newSession]start the session,endPoint=127.0.0.1:20200
+info|2023-05-19 07:54:28.338043|[SDK][WS][SERVICE][addSession]add session to mapping,connectedEndPoint=127.0.0.1:20200,endPoint=127.0.0.1:20200,result=true
+info|2023-05-19 07:54:28.338047|[SDK][WS][SERVICE][onConnect],endpoint=127.0.0.1:20200,connectedEndPoint=127.0.0.1:20200,refCount=6
+info|2023-05-19 07:54:28.338135|[RPCWS][SERVICE][startHandshake],endpoint=127.0.0.1:20200
+info|2023-05-19 07:54:28.338262|[SDK][WS][SESSION][startAsClient]websocket handshake successfully,endPoint=127.0.0.1:20200,session=0x7fe6840243b0
+info|2023-05-19 07:54:28.339499|[RPCWS][SERVICE][fromJson] new group info,groupInfo=,group=group0,chain=chain0,nodeSize=1
+info|2023-05-19 07:54:28.339540|[RPCWS][SERVICE][fromJson]parser protocol version,protocolVersion=1,groupInfoList size=1,groupBlockNumber size=1
+info|2023-05-19 07:54:28.339558|[RPCWS][SERVICE][updateGroupInfoByEp],endPoint=127.0.0.1:20200,group=group0,chainID=chain0,genesisConfig={"blockTxCountLimit":1000,"consensusLeaderPeriod":1,"consensusType":"pbft","sealerList":[{"nodeID":"2f64c894e6c7bb8158416ef1d4564911ccb8b22719eb06f8c7a505296ea77bcbd1d6169bbee12dd1cd0b44a7cef8dbc06787acda563c59255d9789f3edca06f6","weight":1},{"nodeID":"4faf3091e184bb0fedf9f5161c658f0ca74a6164beb01ff57e0773f25285212ee18591fb93a39fc8608cc14ee85474c240cbd97182d41c102d4a96e83d4fc243","weight":1},{"nodeID":"6ea3ed258d948b67b0f59f012236d4af1c38b2d7909e31059bda596db40c3a085479a52535142c71499db30717b6980c39166253ca0eaf576f5b6be20e467856","weight":1},{"nodeID":"dd32f310e2287a723d052832db3899b7b5158257ac67e5550594d2ab93ab5163ab0dfb8d9f9be36b3af293f2083a084ff7cd708f1c1d83f2724f2680aee5d84b","weight":1}],"txGasLimit":3000000000}
+,iniConfig=,nodesNum=1
+info|2023-05-19 07:54:28.339568|[RPCWS][SERVICE][updateGroupInfo],endPoint=127.0.0.1:20200,group=group0,chainID=chain0,nodesNum=1
+info|2023-05-19 07:54:28.339573|[RPCWS][SERVICE][clearGroupInfoByEp],endPoint=127.0.0.1:20200,group=group0
+info|2023-05-19 07:54:28.339589|[RPCWS][SERVICE][printGroupInfo],total count=1
+info|2023-05-19 07:54:28.339592|[RPCWS][SERVICE][printGroupInfo]group list,group=group0,count=1
+info|2023-05-19 07:54:28.339594|[RPCWS][SERVICE][printGroupInfo]node list,group=group0,node=4faf3091e184bb0fedf9f5161c658f0ca74a6164beb01ff57e0773f25285212ee18591fb93a39fc8608cc14ee85474c240cbd97182d41c102d4a96e83d4fc243,count=1
+info|2023-05-19 07:54:28.339609|[RPCWS][SERVICE][updateGroupBlockNumber],groupID=group0,_blockNumber=4
+info|2023-05-19 07:54:28.339660|[AMOP][CLIENT][updateTopicsToRemote]send subscribe message to server,endpoint=127.0.0.1:20200,topics={"topics":[]}
+info|2023-05-19 07:54:28.339672|[RPCWS][SERVICE][startHandshake]handshake successfully,endPoint=127.0.0.1:20200,handshake version=1,groupInfoList size=1,groupBlockNumber size=1,handshake string={"groupBlockNumber":[{"group0":4}],"groupInfoList":[{"chainID":"chain0","genesisConfig":"{\"blockTxCountLimit\":1000,\"consensusLeaderPeriod\":1,\"consensusType\":\"pbft\",\"sealerList\":[{\"nodeID\":\"2f64c894e6c7bb8158416ef1d4564911ccb8b22719eb06f8c7a505296ea77bcbd1d6169bbee12dd1cd0b44a7cef8dbc06787acda563c59255d9789f3edca06f6\",\"weight\":1},{\"nodeID\":\"4faf3091e184bb0fedf9f5161c658f0ca74a6164beb01ff57e0773f25285212ee18591fb93a39fc8608cc14ee85474c240cbd97182d41c102d4a96e83d4fc243\",\"weight\":1},{\"nodeID\":\"6ea3ed258d948b67b0f59f012236d4af1c38b2d7909e31059bda596db40c3a085479a52535142c71499db30717b6980c39166253ca0eaf576f5b6be20e467856\",\"weight\":1},{\"nodeID\":\"dd32f310e2287a723d052832db3899b7b5158257ac67e5550594d2ab93ab5163ab0dfb8d9f9be36b3af293f2083a084ff7cd708f1c1d83f2724f2680aee5d84b\",\"weight\":1}],\"txGasLimit\":3000000000}\n","groupID":"group0","iniConfig":"","nodeList":[{"iniConfig":"{\"binaryInfo\":{\"buildTime\":\"20230424 06:41:58\",\"gitCommitHash\":\"461459291f2f6bb49afbd827618fda2bc4dfdf24\",\"platform\":\"Linux/g++\",\"version\":\"3.3.0\"},\"chainID\":\"chain0\",\"gatewayServiceName\":\"\",\"groupID\":\"group0\",\"isAuthCheck\":false,\"isSerialExecute\":true,\"isWasm\":false,\"nodeID\":\"4faf3091e184bb0fedf9f5161c658f0ca74a6164beb01ff57e0773f25285212ee18591fb93a39fc8608cc14ee85474c240cbd97182d41c102d4a96e83d4fc243\",\"nodeName\":\"4faf3091e184bb0fedf9f5161c658f0ca74a6164beb01ff57e0773f25285212ee18591fb93a39fc8608cc14ee85474c240cbd97182d41c102d4a96e83d4fc243\",\"rpcServiceName\":\"\",\"smCryptoType\":false}\n","microService":false,"name":"4faf3091e184bb0fedf9f5161c658f0ca74a6164beb01ff57e0773f25285212ee18591fb93a39fc8608cc14ee85474c240cbd97182d41c102d4a96e83d4fc243","nodeID":"4faf3091e184bb0fedf9f5161c658f0ca74a6164beb01ff57e0773f25285212ee18591fb93a39fc8608cc14ee85474c240cbd97182d41c102d4a96e83d4fc243","protocol":{"compatibilityVersion":50528256,"maxSupportedVersion":1,"minSupportedVersion":0},"serviceInfo":[{"serviceName":"LedgerServiceObj","type":2},{"serviceName":"SchedulerServiceObj","type":3},{"serviceName":"FrontServiceObj","type":4},{"serviceName":"","type":6},{"serviceName":"","type":7},{"serviceName":"TxPoolServiceObj","type":8}],"type":0}]}],"protocolVersion":1}
+info|2023-05-19 07:54:28.438077|[RPCWS][SERVICE][waitForConnectionEstablish]wait for websocket connection handshake success,suc count=1
+info|2023-05-19 07:54:28.438110|[RPC][IMPL][start]start rpc
+info|2023-05-19 07:54:28.438122|[SDK][WS][SERVICE][start]websocket service is running
+info|2023-05-19 07:54:28.538180|[RPCWS][SERVICE][waitForConnectionEstablish]wait for websocket connection handshake success,suc count=1
+info|2023-05-19 07:54:28.538208|[AMOP][CLIENT][start]start amop
+info|2023-05-19 07:54:28.538220|[SDK][WS][SERVICE][start]websocket service is running
+info|2023-05-19 07:54:28.638333|[RPCWS][SERVICE][waitForConnectionEstablish]wait for websocket connection handshake success,suc count=1
+info|2023-05-19 07:54:28.638535|[EVENT][SUB][start]start event sub successfully,sendMsgTimeout=10000,reconnectPeriod=4294967295
+info|2023-05-19 07:54:28.638556|[SDK][WS][SERVICE][start]websocket service is running
+info|2023-05-19 07:54:28.738653|[RPCWS][SERVICE][waitForConnectionEstablish]wait for websocket connection handshake success,suc count=1
+info|2023-05-19 07:54:28.738687|[bcos_sdk_start],sdk=0x242e620
+info|2023-05-19 07:54:28.738732|[RPCWS][SERVICE][getGroupInfo],count=1
+info|2023-05-19 07:54:28.744895|[RPCWS][SERVICE][getGroupInfo],count=1
